@@ -1,0 +1,14 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Normalize line endings on commit for all files (input)
+#* eol=lf
+
+# ignore line endings for text files
+#* -text
+
+# Scripts
+*.sh       text eol=lf
+# These are explicitly windows files and should use crlf
+*.bat      text eol=crlf
+*.cmd      text eol=crlf
